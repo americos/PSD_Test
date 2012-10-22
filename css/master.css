@@ -1,0 +1,62 @@
+/* General Styles */
+
+body{
+	background: url(../img/imageBackground.png) center 0 no-repeat;
+}
+
+
+/* Structural Styles */
+
+
+
+
+/* Sections */
+
+div.mainContainer{
+	margin: auto;
+	width: 500px;
+	height: 460px;
+	margin-top: 100px;
+}
+
+div.headerSection{
+	background: url(../img/darkGreyBG.png) 0 0 repeat-x;
+}
+
+img.logo{
+	padding: 20px;
+}
+
+div.menu{
+	background: url(../img/lightGreyBG.png) 0 0 repeat;
+	height:40px;
+}
+
+	div.menu ul{
+		/*padding-top: 10px;*/
+		height: 100%;
+		font-family: "Arial Rounded MT Bold";
+		font-size: 14px;
+	}
+
+	div.menu ul li {
+		float: left;
+		color: #5aa6c6;
+		width: 90px;
+		height: 100%;
+		text-align: center;
+		line-height: 40px;
+		margin-right: 20px;
+	}
+
+	div.menu .active{
+		background: url(../img/selectedNav.png) 0 0 repeat-x;
+		color:white !important;
+		height:130%;
+	}
+
+div.content{
+	height: 330px;
+	background: white;
+	padding: 20px;
+}
