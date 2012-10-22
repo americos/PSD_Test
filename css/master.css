@@ -9,12 +9,16 @@ a{
 	text-decoration: none;
 }
 
-/* Structural Styles */
+/* Behavior Styles */
 
 .roundedCorners{
 	-moz-border-radius:6px;
 	-webkit-border-radius:6px;
 	border-radius:6px;
+}
+
+.hidden{
+	display: none;
 }
 
 
@@ -52,11 +56,10 @@ div.menu{
 	div.menu ul li {
 		float: left;
 		color: #09aed6;
-		width: 90px;
+		width: 100px;
 		height: 100%;
 		text-align: center;
 		line-height: 40px;
-		margin-right: 20px;
 	}
 
 	div.menu .active{
@@ -123,4 +126,5 @@ div.content{
 		width: 150px;
 		height: 47px;
 		border:none;
+		cursor: pointer;
 	} 
