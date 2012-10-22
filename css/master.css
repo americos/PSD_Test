@@ -2,6 +2,7 @@
 
 body{
 	background: url(../img/imageBackground.png) center 0 no-repeat;
+	background-color: black;
 }
 
 a{
@@ -128,3 +129,10 @@ div.content{
 		border:none;
 		cursor: pointer;
 	} 
+
+div.personalContact{
+	margin: auto;
+	widows: 200px;
+	text-align: center;
+	line-height: 30px;
+}	

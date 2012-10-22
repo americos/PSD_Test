@@ -20,4 +20,10 @@ jQuery(document).ready(function() {
 
 	});
 
+
+	//Twitter Hovercard
+	twttr.anywhere(function (T) {
+      T.hovercards();
+    });
+
 });
