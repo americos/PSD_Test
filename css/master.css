@@ -65,6 +65,10 @@ div.menu{
 		height:130%;
 	}
 
+	div.menu .active a{
+		color:white;
+	}
+
 div.content{
 	height: 290px;
 	background: white;
